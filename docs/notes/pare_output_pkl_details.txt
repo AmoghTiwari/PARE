@@ -1,0 +1,52 @@
+PARE 
+
+1 smpl_vertices
+type <class 'numpy.ndarray'>
+shape (10, 6890, 3)
+dtype float32
+
+2 smpl_joints3d
+type <class 'numpy.ndarray'>
+shape (10, 49, 3)
+dtype float32
+
+3 smpl_joints2d
+type <class 'numpy.ndarray'>
+shape (10, 49, 2)
+dtype float32
+
+4 pred_cam_t
+type <class 'numpy.ndarray'>
+shape (10, 3)
+dtype float32
+
+5 pred_segm_mask
+type <class 'numpy.ndarray'>
+shape (10, 25, 56, 56)
+dtype float32
+
+6 pred_pose
+type <class 'numpy.ndarray'>
+shape (10, 24, 3, 3)
+dtype float32
+
+7 pred_cam
+type <class 'numpy.ndarray'>
+shape (10, 3)
+dtype float32
+
+8 pred_shape
+type <class 'numpy.ndarray'>
+shape (10, 10)
+dtype float32
+
+9 bboxes
+type <class 'numpy.ndarray'>
+shape (10, 4)
+dtype float64
+
+10 orig_cam
+type <class 'numpy.ndarray'>
+shape (10, 4)
+dtype float64
+
