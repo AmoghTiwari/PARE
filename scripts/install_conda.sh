@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-export CONDA_ENV_NAME=pare-env
+export CONDA_ENV_NAME=pare_env
 echo $CONDA_ENV_NAME
 
 conda create -n $CONDA_ENV_NAME python=3.7.3
